@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+padding: 25px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	
+}
+
+.logo{
+	width: 10%;
+	float: left;
+	padding-top: 10px;
+	
+}
+
+.logo img{
+	width: 100%;
+	transition: .9s;
+}
+
+.logo img:hover{
+	width: 80%;
+	transform: scale(1.0);
+
+}
+
+.menu {
+	width: 70%;
+	float: right;
+	overflow: hidden;
+	padding: 18px 0;
+}
+
+.menu ul{
+list-style: none;
+float: right;
+overflow: hidden;
+}
+.menu ul li{
+float: left;
+
+}
+
+.menu ul li a{
+text-decoration: none;	
+color: #626262;
+padding: 0 76px;
+display: inline-block;
+transition: .5s;
+}
+
+.menu ul li a:hover {
+	text-decoration: underline;
+	width: 100%;
+	transform: scale(0.9);
+	color: #000000;
+}
+
+
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+
+.image{
+	padding: 90px 0;
+
+}
+
+.b_img{
+
+}
+
+.b_img img{
+	width: 100%;
+	transition: .5s;
+}
+.b_img img:hover{
+	width: 100%;
+	transform: scale(0.9);
+}
+
+.photodiary{
+width: 80%;
+margin: 0 auto;
+padding: 25px;
+}
+
+.p1 p{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+}
+
+.h1 h1{
+padding: 50px 0;
+font-weight: 400;
+}
+
+.h1 p{
+	line-height: 25px;
+
+}
+
+.comment{
+	padding: 50px 0;
+}
+
+.comment p a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+}
+
+.m1{
+margin: 60px 0;
+width: 46%;
+float: left;
+
+}
+
+.second {
+	margin-left: 77px;
+}
+.m_img{
+
+}
+
+.m_img img{
+width: 100%;
+transition: .5s;
+}
+
+.m_img img:hover{
+	width: 90%;
+	transform: scale(0.9);
+
+
+}
+
+.m_content{
+
+}
+.m_content p:first-child{
+	color: #b4ad9e;
+	padding: 15px 0;
+}
+.m_content h1{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+.m_content p:last-child{
+font-size: 11px;
+padding: 20px 0;
+}
+
+.news{
+	background-color: #f0f0f0;
+}
+
+.signup{
+	color: #333333;
+	text-align: center;
+	padding: 50px;
+	position: relative;
+}
+
+.signup h1{
+	padding-bottom: 30px;
+	font-weight: 400;
+}
+
+.sign_form{
+
+}
+
+.sign_form input{
+	font-size: 14px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.sign_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 71px;
+	bottom: 0;
+	right: 340px;
+}
+.b_t{
+	margin-bottom: 200px;
+}
+.last{
+	width: 165px;
+	height: 65px;
+	background-color: transparent;
+	text-align: center;
+	margin: 0 400px;
+}
+
+.last h1 a{
+	text-decoration: none;
+	color: #626262;
+	font-weight: 100;
+}
+
+footer{
+	background-color: #F0F0F0;
+	padding: 40px 0;
+}
+
+.footer_left{
+	width: 30%;
+	margin: 0 auto;
+	float: left;
+}
+
+.footer_left ul{
+	list-style: none;
+	overflow: none;
+
+}
+
+.footer_left ul li{
+	float: left;
+
+}
+
+.footer_left ul li a{
+	text-decoration: none;
+	color: #626262;
+	padding: 0 12px;
+
+}
+
+.footer_right{
+	width: 20%;
+	margin: 0 auto;
+	float: right;
+
+}
+
+.footer_right{
+float: right;
+}
+
+.footer_right ul{
+list-style: none;
+}
+
+.footer_right ul li{
+	float: left;
+
+
+}
+
+.footer_right ul li a{
+	text-decoration: none;
+	color: #626262;
+	display: inline-block;
+	padding: 0 5px;
+}
